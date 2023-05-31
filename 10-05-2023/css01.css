@@ -1,0 +1,25 @@
+.container {
+  width: 900px;
+  border: 1px solid violet;
+}
+
+section {
+  width: 600px;
+  border: 1px solid royalblue;
+}
+
+.section2 {
+  margin-left: auto;
+  margin: 5px;
+  border: 1px solid yellow;
+}
+
+.section3 {
+  margin: 5px;
+  border: 1px solid red;
+}
+
+h1 {
+  border: 1px solid pink;
+  text-align: center;
+}

@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  border: 0.5px solid black;
+  border-radius: 10px;
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+}
+
+.container .header {
+  border: 0.5px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: pink;
+}
+
+.company-name {
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container .header nav {
+  display: flex;
+  align-items: center;
+  padding-right: 1em;
+}
+
+.container .header nav ul {
+  display: flex;
+  list-style: none;
+  column-gap: 2em;
+}
+
+.container .header nav ul il {
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 0.5em;
+}
+
+.main-aside {
+  display: flex;
+  flex-grow: 1;
+}
+
+.main-aside aside {
+  border: 1px solid black;
+  width: 20%;
+  background-color: azure;
+  display: none;
+}
+
+.main-aside main {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2em;
+  padding-top: 2em;
+  border: 1px solid black;
+}
+
+.main-aside main section {
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1em;
+  background-color: papayawhip;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+footer {
+  background-color: azure;
+  border: 1px solid black;
+}
+
+@media only screen and (min-width: 600px) {
+  .main-aside aside {
+    display: inherit;
+  }
+}

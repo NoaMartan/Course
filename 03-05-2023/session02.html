@@ -1,0 +1,65 @@
+<!-- 
+notes:
+ • svg: - only takes up the required space and not the entire row like <p>
+ •      - can be used to contain shapes
+ -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <iframe  src="https://www.walla.co.il/"></iframe>
+    <iframe
+      src="https://www.youtube.com/embed/tsphqviT8p0"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+    <div>
+      <svg height="200">
+        <circle cx="60" cy="70" r="60" fill="red"></circle>
+      </svg>
+    </div>
+    <div>
+      <svg height="200">
+        <rect width="200" height="200" fill="yellow"></rect>
+      </svg>
+    </div>
+    <div>
+      <svg height="200">
+        <line
+          x1="0"
+          y1="0"
+          x2="100"
+          y2="150"
+          stroke="black"
+          stroke-width="2"
+        ></line>
+      </svg>
+    </div>
+    <div>
+      <svg height="200">
+        <ellipse
+          cx="100"
+          cy="50"
+          rx="100"
+          ry="50"
+          stroke="cyan"
+          stroke-width="4"
+          fill="blue"
+        ></ellipse>
+      </svg>
+    </div>
+    <div>
+      <svg height="400">
+        <polyline points="0,20 20,20 20,40 40,40 40,60" fill="pink"></polyline>
+      </svg>
+    </div>
+  </body>
+</html>

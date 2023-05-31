@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+.main-div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.company-name {
+  font-size: 3em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  padding: 0.2em;
+  border-radius: 10px;
+  border: 0.5px solid black;
+  width: max-content;
+  margin: 0.2em;
+}
+.content-div {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  margin-left: 1em;
+}
+
+.links-container {
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-grow: inherit;
+}
+.link {
+  padding: 0.5em;
+  border-radius: 10px;
+  border: 0.5px solid black;
+  margin: 1em;
+}
+
+.content-aggregator {
+  height: 100%;
+}
+
+.content {
+  border-radius: 10px;
+  border: 0.5px solid black;
+  padding-bottom: 1em;
+  margin: 1em;
+}
+
+.content-title {
+  padding: 0.5em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-radius: 10px;
+  border: 0.5px solid black;
+  width: max-content;
+  margin: 1em;
+}
+
+.content-body {
+  padding-left: 2em;
+  width: 50%;
+}
+
+.bottom-page {
+  padding: 0.5em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-radius: 10px;
+  border: 0.5px solid black;
+  margin: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+  .links-container {
+    display: none;
+  }
+}
+
+/*
+
+CONTAINER:
+• Justify content - how the elements are being spread within the containers *width*
+• Align Items - *height* of elements within the container
+• Flex-Wrap: /n when there is no space in the row of the container
+• Gap (row gap) - the gap between the elements within a row of the container
+
+ITEM:
+• Flex-Grow: how much space the item will receive of the remaining space in the row
+• Flex-shrink: Shrink a specific element in order to fit within the row
+• Align-Self: *height* of a specific element within its container
+• Flex-basis: works with % and terminates the width of the element within its container
+
+*/

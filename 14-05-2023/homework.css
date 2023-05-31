@@ -1,0 +1,36 @@
+.mainDiv {
+  width: 80vw;
+  height: 90vh;
+  border: 2px solid black;
+  margin: 0 auto; /* center horizontal */
+  position: relative; /* becomes a parent to inner elements */
+}
+
+.mainDiv div {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: rgb(247, 218, 222);
+  position: absolute; /* ignores other elements (siblings) and is in relation to its parent */
+}
+.div1 {
+  border: 2px solid blue;
+}
+
+.div2 {
+  border: 2px solid red;
+  right: 0;
+  top: 0;
+}
+
+.div3 {
+  border: 2px solid green;
+  right: 0;
+  bottom: 0;
+}
+
+.div4 {
+  border: 2px solid yellow;
+  left: 0;
+  bottom: 0;
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS, JAVASCRIPT, EDO_MATH"/>
+    <meta name="author" content="Noa"/>
+    <meta name="description" content="Wow wow helem wow"/>
+    <meta http-equiv="refresh" content="60"/>
+    <title>Order Pizza 🍕</title>
+    <link rel="stylesheet" href="./pizza-style.css" />
+  </head>
+  <body>
+    <!-- to have the URL get params from the form, 
+    input parameters must have name="" defined in them! -->
+    <!-- To have radio input send its param in the URL, 
+    include a `value` attribute to the input -->
+    <div id="form-container">
+      <h1>🍕 Order Pizza 🍕</h1>
+      <form method="get" action="http://pizza.com">
+        <input type="hidden" name="year" value="2023"/>
+        <table border="1px solid black">
+          <tr>
+            <td>
+              <div class=" column">
+                <h2>
+                  Personal Information
+                  <hr />
+                </h2>
+                <div >
+                  <div class="order-form-labels">
+                    <label for="first-name">First Name:</label>
+                  </div>
+                  <br />
+                  <div class="order-form-inputs">
+                    <input
+                      type="text"
+                      id="first-name"
+                      name="first-name"
+                      placeholder="John"
+                      min="5"
+                      max="20"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="order-form-containers">
+                  <div class="order-form-labels">
+                    <label for="last-name">Last Name:</label>
+                  </div>
+                  <br />
+                  <div class="order-form-inputs">
+                    <input
+                      type="text"
+                      id="last-name"
+                      name="last-name"
+                      placeholder="Doe"
+                      min="5"
+                      max="20"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="order-form-containers">
+                  <div class="order-form-labels">
+                    <label for="email">Email:</label>
+                  </div>
+                  <br />
+                  <div class="order-form-inputs">
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="noa.martan@gmail.com"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="order-form-containers">
+                  <div class="order-form-labels">
+                    <label for="address-name">Address:</label>
+                  </div>
+                  <br />
+                  <div class="order-form-inputs">
+                    <input
+                      type="text"
+                      id="address-name"
+                      name="address-name"
+                      placeholder="Address"
+                    />
+                  </div>
+                </div>
+            </td>
+            <td>
+              <div class="column">
+                <h2>
+                  Select Pizza Size
+                  <hr />
+                </h2>
+                <input type="radio" name="size_select" value="small" />
+                <label for="small">Small</label>
+                <br />
+                <input type="radio" name="size_select" value="regular" />
+                <label for="regular">Regular</label>
+                <br />
+                <input type="radio" name="size_select" value="large" />
+                <label for="large">Large</label>
+                <br />
+                <input type="radio" name="size_select" value="extra-large" />
+                <label for="extra-large">Extra Large</label>
+              </div>
+            </td>
+            <td>
+              <div class="column">
+                <h2>
+                  Select Your Toppings
+                  <hr />
+                </h2>
+                <input type="checkbox" id="pepperoni" name="pepperoni" />
+                <label for="pepperoni">Pepperoni</label>
+                <br />
+                <input type="checkbox" id="extra-cheese" name="extra-cheese" />
+                <label for="extra-cheese">Extra Cheese</label>
+                <br />
+                <input type="checkbox" id="mushrooms" name="mushrooms" />
+                <label for="mushrooms">Mushrooms</label>
+                <br />
+                <input type="checkbox" id="onions" name="onions" />
+                <label for="onions">Onions</label>
+              </div>
+            </td>
+            <td>
+              <div class="column">
+                <h2>
+                  Amount
+                  <hr />
+                </h2>
+                <input 
+                type="number" 
+                id="amount" name="amount"
+                min="1" ma
+                x="10"
+                required> 
+                </input>
+              </div>
+            </td>
+            <br>
+          </tr>
+          <td>
+              <div class="column">
+                <h2>
+                  Select City
+                  <hr />
+                </h2>
+                <select id="city" name="city">
+                  <option value="tel-aviv">Tel Aviv</option>
+                  <option value="kfar-saba">Kfar Saba</option>
+                  <option value="holon">Holon</option>
+                  <option value="eilat">Eilat</option>
+                  <option value="ramat-gan">Ramat Gan</option>
+                  <option value="jerusalem">Jerusalem</option>
+                </select>
+              </div>
+            </td>
+             <td>
+              <div class="column">
+                <h2>
+                  Delivery type
+                  <hr />
+                </h2>
+                <input
+                  type="radio"
+                  name="delivery_select"
+                  value="regular-delivery"
+                />
+                <label for="regular-delivery">Regular delivery</label>
+                <br />
+                <input
+                  type="radio"
+                  name="delivery_select"
+                  value="express-delivery"
+                />
+                <label for="express-delivery">Express delivery</label>
+              </div>
+            </td>
+             <td>
+              <div class="column">
+                <h2>
+                  Notes
+                  <hr />
+                </h2>
+                <textarea id="comment" placeholder="What's on your mind?"> </textarea>
+              </div>
+            </td>
+        </table>
+        <input type="submit" class="submit" id="submit-button" value="Submit order" />
+        <input type="reset" class="submit" id="clear-button" value="Clear Order" />
+      </form>
+    </div>
+  </body>
+</html>
