@@ -1,0 +1,85 @@
+<mxfile host="65bd71144e">
+    <diagram id="O37csL2ieDH6v2BlPV9f" name="Page-1">
+        <mxGraphModel dx="419" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" style="edgeStyle=none;html=1;fontFamily=Tahoma;startArrow=none;" edge="1" parent="1" source="13" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Tahoma;fontColor=#737373;" edge="1" parent="1" source="3" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;h2&gt;&lt;font style=&quot;font-weight: normal;&quot; face=&quot;Tahoma&quot;&gt;START&lt;/font&gt;&lt;/h2&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="30" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;STOP&lt;/span&gt;&lt;/h2&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Tahoma;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="460" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;fontFamily=Tahoma;fontColor=#737373;" edge="1" parent="1" source="7" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;h5&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;num&lt;/span&gt;&lt;/h5&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=card;whiteSpace=wrap;size=20;arcSize=12;fontFamily=Tahoma;fillColor=#f9f7ed;strokeColor=#36393d;labelPosition=center;align=center;labelBackgroundColor=none;fontColor=#737373;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="130" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;h5&gt;input&lt;/h5&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=card;whiteSpace=wrap;size=20;arcSize=12;labelBackgroundColor=none;fontFamily=Tahoma;fillColor=#cce5ff;labelPosition=center;align=center;strokeColor=#36393d;fontColor=#312f2f;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="10" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;h5&gt;output&lt;/h5&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;labelBackgroundColor=none;fontFamily=Tahoma;fillColor=#cce5ff;strokeColor=#36393d;fontColor=#312f2f;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="70" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;h5&gt;start / stop junction&lt;/h5&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;labelBackgroundColor=none;fontFamily=Tahoma;fillColor=#cce5ff;strokeColor=#36393d;fontColor=#312f2f;" vertex="1" parent="1">
+                    <mxGeometry x="15" y="120" width="70" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;h5&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;process&lt;/font&gt;&lt;/h5&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=none;fontFamily=Tahoma;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="180" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;h5&gt;&lt;span style=&quot;color: rgb(115, 115, 115); font-weight: normal; background-color: initial; font-size: 12px;&quot;&gt;digit&lt;/span&gt;&lt;br&gt;&lt;/h5&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;labelBackgroundColor=none;fontFamily=Tahoma;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="340" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;fontFamily=Tahoma;fontColor=#737373;" edge="1" parent="1" source="26" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;h4 style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;digit = ((num/10) - int(num/10))*10&lt;/span&gt;&lt;/h4&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=#FFFFFF;fontFamily=Tahoma;fontColor=#737373;fillColor=#FFFFFF;direction=south;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="230" width="140" height="67.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;html=1;fontFamily=Tahoma;startArrow=none;" edge="1" parent="1" source="37" target="34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Tahoma;fontColor=#737373;" edge="1" parent="1" source="33" target="36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;h2&gt;&lt;font style=&quot;font-weight: normal;&quot; face=&quot;Tahoma&quot;&gt;START&lt;/font&gt;&lt;/h2&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="30" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;STOP&lt;/span&gt;&lt;/h2&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Tahoma;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="460" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;html=1;fontFamily=Tahoma;fontColor=#737373;" edge="1" parent="1" source="36" target="39">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;h5&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;num&lt;/span&gt;&lt;/h5&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=card;whiteSpace=wrap;size=20;arcSize=12;fontFamily=Tahoma;fillColor=#f9f7ed;strokeColor=#36393d;labelPosition=center;align=center;labelBackgroundColor=none;fontColor=#737373;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="130" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;h5&gt;&lt;span style=&quot;color: rgb(115, 115, 115); font-weight: normal; background-color: initial; font-size: 12px;&quot;&gt;digit&lt;/span&gt;&lt;br&gt;&lt;/h5&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;labelBackgroundColor=none;fontFamily=Tahoma;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="340" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;html=1;fontFamily=Tahoma;fontColor=#737373;" edge="1" parent="1" source="39" target="37">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="edgeStyle=none;html=1;fontFamily=Tahoma;fontColor=#737373;" edge="1" parent="1" source="39" target="36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;h4 style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;digit = ((num/100) - (int) (num/10))*10&lt;/span&gt;&lt;/h4&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=#FFFFFF;fontFamily=Tahoma;fontColor=#737373;fillColor=#FFFFFF;direction=south;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="230" width="140" height="67.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&lt;font color=&quot;#1a1a1a&quot; style=&quot;background-color: rgb(204, 229, 255);&quot;&gt;&lt;b&gt;condition&lt;/b&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;labelBackgroundColor=#FFFFFF;fontFamily=Tahoma;fillColor=#CCE5FF;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="240" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;h5&gt;loop condition&lt;/h5&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;labelBackgroundColor=none;fontFamily=Tahoma;fillColor=#cce5ff;strokeColor=#36393d;fontColor=#312f2f;" vertex="1" parent="1">
+                    <mxGeometry x="15" y="330" width="70" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
