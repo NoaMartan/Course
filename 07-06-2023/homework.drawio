@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="6lL7B8XVimhlBR5p4PDD" name="Page-1">
-        <mxGraphModel dx="1550" dy="1330" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="775" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -291,7 +291,7 @@
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="40" y="1998"/>
-                            <mxPoint x="40" y="2105"/>
+                            <mxPoint x="40" y="2133"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -302,7 +302,7 @@
                             <mxPoint x="190" y="2050"/>
                             <mxPoint x="330" y="2050"/>
                             <mxPoint x="490" y="2050"/>
-                            <mxPoint x="490" y="2000"/>
+                            <mxPoint x="490" y="1998"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -320,7 +320,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="143" value="&lt;h5&gt;currDigit = num % 10&lt;/h5&gt;&lt;h5&gt;&amp;nbsp;num = (int) (num/10)&lt;/h5&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=none;fontFamily=Tahoma;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
-                    <mxGeometry x="74.26" y="2070" width="120" height="70" as="geometry"/>
+                    <mxGeometry x="74.26" y="2097.5" width="120" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="150" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="146" target="149">
                     <mxGeometry relative="1" as="geometry"/>
