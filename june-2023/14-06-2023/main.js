@@ -44,20 +44,17 @@ async function doWork() {
   }
 }
 
-//doWork();
-
 function printInterval(number) {
-  return new Promise( (resolve, reject) => {
-    await sleep(20000);
+  return new Promise((resolve, reject) => {
     for (let i = 1; i <= number; i++) {
-      sleep(2000);
+      setTimeout(20000);
       resolve(i);
     }
     reject("Done");
   });
 }
 
-async function doWork1() {
+async function executer() {
   try {
     const response = await printInterval(10);
     console.log(response);
@@ -66,4 +63,4 @@ async function doWork1() {
   }
 }
 
-doWork1(10);
+console.log(executer());
