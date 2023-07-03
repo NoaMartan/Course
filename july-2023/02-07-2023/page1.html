@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="page1.css" />
+    <script defer src="page1.js"></script>
+  </head>
+  <body>
+    <form onsubmit="submitHandler(); return false" name="loginForm">
+      <div>
+        <label for="firstName">First name</label>
+        <input type="text" id="firstName" name="firstName" required />
+      </div>
+      <div>
+        <label for="lastName">Last name</label>
+        <input type="text" id="lastName" name="lastName" required />
+      </div>
+      <div>
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div>
+        <label for="color">Favorite color</label>
+        <select id="color" name="color">
+          <option value="red">Red 🔴</option>
+          <option value="blue">Blue 🔵</option>
+          <option value="green">Green 🟢</option>
+          <option value="yellow">Yellow 🟡</option>
+        </select>
+      </div>
+      <div>
+        <label>Gender</label>
+        <input type="radio" name="gender" id="male" value="male" /> Male
+        <input type="radio" name="gender" id="female" value="female" /> Female
+      </div>
+      <button>Submit</button>
+    </form>
+
+    <table id="table">
+      <thead>
+        <tr>
+          <th>First name</th>
+          <th>Last name</th>
+          <th>Email</th>
+          <th>Favorite color</th>
+          <th>Gender</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </body>
+</html>

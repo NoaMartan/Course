@@ -1,0 +1,25 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+div {
+  margin: 10px;
+}
+button {
+  border-radius: 15px;
+  font-size: 15px;
+  color: white;
+  background-color: blue;
+  outline: auto;
+  padding: 0.5em;
+}
+
+button:hover {
+  border-radius: 15px;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(5, 5, 166);
+  outline: auto;
+  padding: 0.5em;
+}
