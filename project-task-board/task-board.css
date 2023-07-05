@@ -1,0 +1,21 @@
+html {
+  background-image: url("./images/tile.jpg");
+}
+#task-board-title {
+  font-family: Chalkduster, fantasy;
+  text-align: center;
+  font-size: 3em;
+  border: solid black 2px;
+}
+
+#header {
+  border: solid black 2px;
+}
+
+main {
+  border: solid red 2px;
+}
+
+#new-task {
+  background-image: url("./images/formbg.jpg");
+}

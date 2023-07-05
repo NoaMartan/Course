@@ -2,23 +2,10 @@ let users = [];
 
 function init() {
   const storageUsers = localStorage.getItem("users");
-  // const arrUsers = JSON.parse(storageUsers);
   if (storageUsers !== null) {
     users = JSON.parse(storageUsers);
   }
-  // for (let i = 0; i < arrUsers.length; i++) {
-  //   users[i] = arrUsers[i];
-  // }
-  let tbody = document.querySelector("#tbody").innerHTML;
-  for (let user of users) {
-    document.querySelector("#tbody").innerHTML += `
-  <tr>
-    <td>${user.firstName}</td>
-    <td>${user.lastName}</td>
-    <td>${user.email}</td>
-    <tr/>
-  `;
-  }
+  generateTableBody();
 }
 function submitHandler() {
   const form = document.forms["userData"];
@@ -37,9 +24,34 @@ function submitHandler() {
     <td>${firstName}</td>
     <td>${lastName}</td>
     <td>${email}</td>
+    <td> <button onclick="removeRow(${users.length - 1})">X</button> </td>
     <tr/>
   `;
   form.reset();
 }
-
+function removeRow(rowIndex) {
+  let newUsers = [];
+  for (let i = 0; i < users.length; i++) {
+    if (i !== rowIndex) {
+      newUsers[newUsers.length] = users[i];
+    }
+  }
+  users = newUsers;
+  generateTableBody();
+  localStorage.setItem(users, JSON.stringify(users));
+}
 init();
+
+function generateTableBody() {
+  document.querySelector("#tbody").innerHTML = "";
+  for (let i = 0; i < users.length; i++) {
+    document.querySelector("#tbody").innerHTML += `
+  <tr>
+    <td>${users[i].firstName}</td>
+    <td>${users[i].lastName}</td>
+    <td>${users[i].email}</td>
+    <td> <button onclick="removeRow(${i})">X</button> </td>
+    <tr/>
+  `;
+  }
+}
