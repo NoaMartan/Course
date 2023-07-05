@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="homerwork.css"
+    />
+    <script defer src="homework.js"></script>
+  </head>
+  <body>
+    <main>
+      <form name="userData" onsubmit="submitHandler(); return false">
+        <div>
+          <label for="firstName">first name</label>
+          <input type="text" id="firstName" name="firstName" required />
+        </div>
+        <div>
+          <label for="lastName">last name</label>
+          <input type="text" id="lastName" name="lastName" required />
+        </div>
+        <div>
+          <label for="email">email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <input type="submit" />
+        </div>
+      </form>
+      <table>
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </main>
+  </body>
+</html>
