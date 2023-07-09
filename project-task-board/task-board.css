@@ -16,6 +16,6 @@ main {
   border: solid red 2px;
 }
 
-#new-task {
+#new-task-form {
   background-image: url("./images/formbg.jpg");
 }
